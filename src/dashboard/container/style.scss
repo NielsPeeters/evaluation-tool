@@ -1,0 +1,27 @@
+.container {
+    margin-bottom: 16px;
+    .__content {
+        background-color: var(--secondary-bg-color);
+        color: var(--secondary-text-color);
+        border-radius: 10px;
+        padding: 16px;
+    }
+
+    .__titleSection {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+
+        .__action {
+            font-family: Barlow;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+
+            align-self: center;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.projectCard{
+    padding: 10px;
+    border-radius: 5.5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    cursor: pointer;
+
+    .__amount {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        
+        > span {
+            padding-left: 8px;
+        }
+    }
+
+    .__company {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+
+        > * {
+            align-self: center;
+        }
+    }
+
+   .__icon {
+       align-self: center;
+       height: 20px;
+   }
+
+   .__feedback {
+       padding-top: 16px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: right;
+    text-decoration-line: underline;
+    color: var(--secondary-text-color)
+   }
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,37 @@
+.navlink {
+    display: flex;
+    flex-direction: row;
+    color: var(--secondary-text-color);
+    background-color: transparent;
+    border-radius: 10px;
+    height: 40px;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    align-content: center;
+    text-align: center;
+    margin: 10px 0px;
+
+    transition: all 0.1s ease-in-out;
+
+    &:focus, &:hover, &.active {
+        background-color: var(--main-bg-color);
+        padding-left: 10px;
+        cursor: pointer;
+    }
+
+    .__icon {
+        margin-right: 10px;
+        align-self: center;
+        fill: var(--secondary-text-color);
+        height: 20px;
+    }
+
+    .__name{
+        align-self: center;
+    }
+}

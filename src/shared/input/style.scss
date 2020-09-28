@@ -1,0 +1,42 @@
+.inputContainer {
+    display: flex;
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+    height: 40px;
+    
+    .__input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding-left: 15px;
+        width: 100%;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: var(--secondary-text-color);
+
+        &::placeholder {
+            opacity: 0.2;
+        }
+
+
+        &:focus {
+           outline: none;
+        }
+    }
+    
+    .__icon { 
+        height: 20px;
+        color: var(--secondary-text-color);
+        background-color: transparent;
+        border: none;
+        outline: none;
+        align-self: center;
+        justify-content: center;
+        margin-right: 15px;
+    }
+}

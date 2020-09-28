@@ -1,0 +1,59 @@
+.rowItem {
+    display: flex;
+    flex-direction: row;
+    color: var(--secondary-text-color);
+    background-color: transparent;
+    
+    height: 40px;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+
+    transition: all 0.1s ease-in-out;
+
+    &:focus, &:hover {
+        padding-left: 10px;
+        cursor: pointer;
+    }
+
+    .__start{
+        display: flex;
+    }
+
+    .__icon {
+        height: 20px;
+        margin-right: 10px;
+        align-self: center;
+    }
+
+    .__name{
+        display: inline-block;
+        text-align: start;
+        align-self: center;
+    }
+
+    .__date {
+        padding:3px 6px;
+        align-self: center;
+        margin-right: 10px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        
+        &.--urgent {
+            background: rgba(255, 0, 0, 0.152863);
+            color: #FE0000;
+            border-radius: 5.5px;
+        }
+    }
+}

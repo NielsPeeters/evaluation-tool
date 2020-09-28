@@ -1,0 +1,20 @@
+.button {
+    display: flex;
+    background-color: var(--main-bg-color);
+    border-radius: 5.5px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+
+    .__icon { 
+        height: 30px;
+        color: var(--secondary-text-color);
+        background-color: transparent;
+        border: none;
+        outline: none;
+        align-self: center;
+    }
+}

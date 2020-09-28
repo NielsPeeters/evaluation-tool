@@ -1,0 +1,25 @@
+.todolist {
+    .__listname {
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+    
+    
+        color: rgba(61, 76, 128, 0.495875);
+    
+    }
+    
+    .__todos {
+        > div {
+            border-bottom: 1px solid var(--main-bg-color)
+        }
+    
+        > div:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
