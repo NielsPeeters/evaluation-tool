@@ -1,5 +1,11 @@
 # Evaluation tool
 
+## Screenshots
+
+![Vertical site](./docs/Screenshot_vertical.png)
+![Horizontal site](./docs/Screenshot_horizontal.png)
+
+
 ## Starting the project
 ### 🖥 Running the application
 
