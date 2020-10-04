@@ -2,23 +2,24 @@
 
 ## Intro
 
-> **Designs provided by Digiti.be**
+> **Designs provided by [Digiti.be](digiti.be)**
 
 Given a Figma design I converted the design in a (semi) responsive front-end layout with future integrations in mind. Since the designs heavily indicated the project being an application I chose for the React library. React allows us to quickly create a proof of concept from design and easily allows us to expand the application later by adding `react-router-dom` and/or state management libraries.
 
 ## Screenshots
 
-<img src="./docs/Screenshot_vertical.png" alt="Vertical preview"
+<img style="border: 1px gray solid; margin-right: 50px" src="./docs/Screenshot_vertical.jpg" alt="Vertical preview"
 	title="Vertical preview" width="215" height="267,25" />
-<img src="./docs/Screenshot_horizontal.png" alt="Horizontal preview"
+<img style="border: 1px gray solid;" src="./docs/Screenshot_horizontal.jpg" alt="Horizontal preview"
 	title="Horizontal preview" width="320,5" height="183" />
 
 ## Starting the project
 
 ### 🖥 Running the application
-
-`git clone https://github.com/NielsPeeters/projectify-tool.git`
-`cd projectify-tool`
+\
+`git clone https://github.com/NielsPeeters/projectify-tool.git` \
+`cd projectify-tool` \
+`yarn start`
 
 `yarn start` runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
