@@ -8,9 +8,9 @@ Given a Figma design I converted the design in a (semi) responsive front-end lay
 
 ## Screenshots
 
-<img style="border: 1px gray solid; margin-right: 50px" src="./docs/Screenshot_vertical.jpg" alt="Vertical preview"
+<img style="border: 1px gray solid; margin-right: 50px" src="./docs/screenshot_vertical.jpg" alt="Vertical preview"
 	title="Vertical preview" width="312" height="360" />
-<img style="border: 1px gray solid;" src="./docs/Screenshot_horizontal.jpg" alt="Horizontal preview"
+<img style="border: 1px gray solid;" src="./docs/screenshot_horizontal.jpg" alt="Horizontal preview"
 	title="Horizontal preview" width="622,5" height="360" />
 
 ## Starting the project
