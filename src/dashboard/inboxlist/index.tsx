@@ -5,7 +5,7 @@ import './style.scss';
 
 const InboxList = ({ inbox }: { inbox: InboxItem[] }) => {
   const inboxList = inbox.map((inboxItem: InboxItem) => (
-    <RowItem icon={inboxItem.icon} iconColor={inboxItem.iconColor} date={inboxItem.date}>
+    <RowItem key={inboxItem.id} icon={inboxItem.icon} iconColor={inboxItem.iconColor} date={inboxItem.date}>
       {inboxItem.name}
     </RowItem>
   ));

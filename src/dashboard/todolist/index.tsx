@@ -7,7 +7,7 @@ const TodoList = ({ todos }: { todos: Todo[] }) => {
   // Normally we would use date's and filter on dates to check if they happen in the next 7 days or if they happen in the next 30 days
 
   const todoList = todos.map((todo: Todo) => (
-    <RowItem icon={todo.icon} iconColor={todo.iconColor} date={todo.date} urgent={todo.urgent}>
+    <RowItem key={todo.id} icon={todo.icon} iconColor={todo.iconColor} date={todo.date} urgent={todo.urgent}>
       {todo.name}
     </RowItem>
   ));
