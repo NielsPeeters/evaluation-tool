@@ -19,6 +19,7 @@ Given a Figma design I converted the design in a (semi) responsive front-end lay
 \
 `git clone https://github.com/NielsPeeters/projectify-tool.git` \
 `cd projectify-tool` \
+`yarn` \
 `yarn start`
 
 `yarn start` runs the app in the development mode.<br />
