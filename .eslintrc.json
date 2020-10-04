@@ -1,39 +1,31 @@
 {
-    "root": true,
-    "extends": [
-        "prettier"
+  "root": true,
+  "extends": ["plugin:prettier/recommended", "prettier/flowtype", "prettier/react", "prettier/standard"],
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true
+  },
+  "plugins": ["react"],
+  "rules": {
+    "prefer-template": 0,
+    "quotes": [
+      "warn",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
     ],
-    "parser": "babel-eslint",
-    "env": {
-        "es6": true
-    },
-    "plugins": [
-        "react"
+    "no-console": ["warn"],
+    "react/no-did-update-set-state": 0,
+    "react/no-did-mount-set-state": 0,
+    "no-var": ["error"],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
     ],
-    "rules": {
-        "prefer-template": 0,
-        "quotes": [
-            "warn",
-            "single",
-            {
-                "allowTemplateLiterals": true
-            }
-        ],
-        "no-console": [
-            "warn"
-        ],
-        "react/no-did-update-set-state": 0,
-        "react/no-did-mount-set-state": 0,
-        "no-var": [
-            "error"
-        ],
-        "prefer-const": [
-            "error",
-            {
-                "destructuring": "any",
-                "ignoreReadBeforeAssign": false
-            }
-        ],
-        "curly": "warn"
-    }
+    "curly": "warn"
+  }
 }
