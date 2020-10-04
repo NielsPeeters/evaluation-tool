@@ -1,37 +1,39 @@
 .userlink {
-    display: flex;
-    flex-direction: row;
-    color: var(--secondary-text-color);
-    background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  color: var(--secondary-text-color);
+  background-color: transparent;
+  border-radius: 10px;
+  height: 40px;
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  align-content: center;
+  text-align: center;
+  margin: 10px 0px;
+  padding-right: 15px;
+
+  transition: all 0.1s ease-in-out;
+
+  &:focus,
+  &:hover,
+  .active {
+    background-color: var(--main-bg-color);
+    cursor: pointer;
+  }
+
+  .__picture {
     border-radius: 10px;
-    height: 40px;
+    margin-right: 10px;
+    align-self: center;
+    fill: var(--secondary-text-color);
+  }
 
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-
-    align-content: center;
-    text-align: center;
-    margin: 10px 0px;
-    padding-right: 15px;
-
-    transition: all 0.1s ease-in-out;
-
-    &:focus, &:hover, .active {
-        background-color: var(--main-bg-color);
-        cursor: pointer;
-    }
-
-    .__picture {
-        border-radius: 10px;
-        margin-right: 10px;
-        align-self: center;
-        fill: var(--secondary-text-color);
-    }
-
-    .__name{
-        align-self: center;
-    }
+  .__name {
+    align-self: center;
+  }
 }

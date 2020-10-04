@@ -1,10 +1,9 @@
-.inboxList{
-    > div {
-        border-bottom: 1px solid var(--main-bg-color)
-    }
+.inboxList {
+  > div {
+    border-bottom: 1px solid var(--main-bg-color);
+  }
 
-    > div:last-child {
-        border-bottom: none;
-    }
+  > div:last-child {
+    border-bottom: none;
+  }
 }
-

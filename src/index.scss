@@ -1,23 +1,21 @@
 :root {
-  --main-bg-color: #F6F6FB;
-  --secondary-bg-color: #FFFFFF ;
-  --main-text-color: #0C163D;
-  --secondary-text-color: #3D4C80;
+  --main-bg-color: #f6f6fb;
+  --secondary-bg-color: #ffffff;
+  --main-text-color: #0c163d;
+  --secondary-text-color: #3d4c80;
 }
 
 body {
   margin: 0;
-  font-family: 'Barlow' ,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--main-bg-color);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 svg {
@@ -25,6 +23,5 @@ svg {
 }
 
 * {
-
   box-sizing: border-box;
 }
