@@ -20,7 +20,7 @@ const Navigation = () => {
   return (
     <nav className="navigation">
       <div className="topNavigation">
-        <Title>Evaluation Tool</Title>
+        <Title>Projectify tool</Title>
         <Input type="text" onChange={() => null} placeholder="Search" icon={Search}></Input>
 
         <div className="navLinks">

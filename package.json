@@ -9,7 +9,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint \"src/**/**.tsx\"",
-    "format": "prettier --write \"**/**\"",
+    "format": "prettier --write \"src/**/*.tsx\"",
     "eject": "react-scripts eject"
   },
   "dependencies": {
@@ -58,7 +58,7 @@
     "*.{ts, tsx, js, jsx}": [
       "eslint --fix"
     ],
-    "*.{ts, tsx, html, js, jsx,json}": [
+    "*.{ts, tsx, html, js, jsx, json, css, scss, sass}": [
       "prettier --write"
     ]
   },
